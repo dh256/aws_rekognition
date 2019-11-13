@@ -3,4 +3,5 @@ aws s3 mb s3://foxcat-images
 aws s3 mb s3://foxcat-videos
 aws s3 cp snapshots/ s3://foxcat-images --recursive --include "*.png"
 aws s3 cp video/ s3://foxcat-videos --recursive --include "*.mp4"
+aws s3 ls s3://foxcat-images
 
