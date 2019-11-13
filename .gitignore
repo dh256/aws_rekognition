@@ -118,8 +118,8 @@ dmypy.json
 # Ignore all local history of files
 .history
 
-stock_images/
-camera_video/
-camera_images/
+stock_images/*
+camera_video/*
+camera_images/*
 
 # End of https://www.gitignore.io/api/python,visualstudiocode
